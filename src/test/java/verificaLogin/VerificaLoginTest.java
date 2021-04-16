@@ -1,0 +1,14 @@
+package verificaLogin;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class VerificaLoginTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
