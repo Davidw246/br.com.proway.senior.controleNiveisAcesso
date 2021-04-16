@@ -6,6 +6,7 @@ import java.util.Random;
 public class AlteraSenha {
 
 	public static ArrayList<String> alterarSenha(String email) {
+		
 		/**
 		 * Controla o processo de alteração de senha
 		 * 
@@ -15,6 +16,7 @@ public class AlteraSenha {
 		 * @param email E-mail do usuário.
 		 * @return Lista de erros se houver
 		 */
+		
 		ArrayList<String> erro = new ArrayList<String>();
 		if (verificarUsuario(email)) {
 			if (gerenciarCodigo(email)) {
